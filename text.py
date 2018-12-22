@@ -11,6 +11,7 @@ import scipy.fftpack as fftpack
 import scipy.optimize as optimize
 from scipy.fftpack import fft
 
+//the reading file function
 x, z, y = np.loadtxt('LAM.txt', unpack=True)
 x1, z1, y1 = np.loadtxt('HEX.txt', unpack=True)
 
